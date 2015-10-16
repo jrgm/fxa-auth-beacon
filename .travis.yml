@@ -1,0 +1,12 @@
+language: python
+
+sudo: false
+
+python:
+  - "2.7"
+
+install:
+  - make build
+
+script:
+  - make test
